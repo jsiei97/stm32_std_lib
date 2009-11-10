@@ -8,7 +8,7 @@ use Archive::Zip;
 use POSIX qw(strftime);
 
 ## A ISO-date string
-$date_now = strftime("%Y%m%d-%H%M%S", localtime);
+$date_now = strftime("%Y%m%d-%H%M", localtime);
 print $date_now ."\n";
 
 $cwd_path = getcwd();
@@ -196,7 +196,7 @@ if(-e $lib_dir_name) {
 
 system("git add ".$lib_dir_name);
 system("git commit -a -m 'ST:s ".$lib_dir_name." ".$lib_ver."'");
-system("git tag '".$lib_ver."'");
+system("git tag -a ".$lib_ver." -m 'imported ".$date_now."'");
 
 system("rm -rf tmp/");
 
