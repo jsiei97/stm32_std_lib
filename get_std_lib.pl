@@ -243,7 +243,7 @@ if(not -e $lib_dir_name) {
 #
 
 system("git add ".$lib_dir_name);
-system("git commit -a -m 'ST:s ".$lib_dir_name." ".$lib_ver."'");
+system("git commit -a -m 'Autogen import ".$git_tag."'");
 system("git tag -a '".$git_tag."' -m '".$lib_ver." ".$date_now."'");
 
 system("rm -rf tmp/");
