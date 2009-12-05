@@ -238,7 +238,6 @@ if(not -e $lib_dir_name) {
     die("Can't find to dir: ".$lib_dir_name."\n");
 }
 
-die("OK");
 #
 # More error control...?
 #
