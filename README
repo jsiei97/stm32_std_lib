@@ -7,3 +7,7 @@ this has to be merged onto the master track manually.
 
 This git repo can then be include in your projects git as a vendor branch.
 
+Right now the files can be found at 
+http://www.st.com/internet/mcu/product/164487.jsp#SOFTWARE_AND_DEVELOPMENT_TOOLS
+but ST changes the URL now and then.
+

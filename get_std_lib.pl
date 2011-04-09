@@ -19,11 +19,11 @@ if(!defined($ARGV[0])) {
 
 if ( $ARGV[0] =~ /std/ ) {
     $stdlibzip = "stm32f10x_stdperiph_lib.zip";
-    $url = "http://www.st.com/stonline/products/support/micro/files/stm32f10x_stdperiph_lib.zip";
+    $url = "http://www.st.com/internet/com/SOFTWARE_RESOURCES/SW_COMPONENT/FIRMWARE/stm32f10x_stdperiph_lib.zip";
 
 } elsif ( $ARGV[0] =~ /usb/ ) {
     $stdlibzip = "stm32f10x_usb_lib.zip";
-    $url = "http://www.st.com/stonline/products/support/micro/files/um0424.zip";
+    $url = "http://www.st.com/internet/com/SOFTWARE_RESOURCES/SW_COMPONENT/FIRMWARE/um0424.zip";
 
 } else {
     print "Usage ./get_std_lib.pl [std/usb]\n";
