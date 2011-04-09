@@ -1,8 +1,8 @@
-/******************** (C) COPYRIGHT 2009 STMicroelectronics ********************
+/******************** (C) COPYRIGHT 2011 STMicroelectronics ********************
 * File Name          : usb_regs.h
 * Author             : MCD Application Team
-* Version            : V3.1.0
-* Date               : 10/30/2009
+* Version            : V3.3.0
+* Date               : 21-March-2011
 * Description        : Interface prototype functions to USB cell registers
 ********************************************************************************
 * THE PRESENT FIRMWARE WHICH IS FOR GUIDANCE ONLY AIMS AT PROVIDING CUSTOMERS
@@ -668,4 +668,4 @@ uint16_t ByteSwap(uint16_t);
 
 #endif /* __USB_REGS_H */
 
-/******************* (C) COPYRIGHT 2009 STMicroelectronics *****END OF FILE****/
+/******************* (C) COPYRIGHT 2011 STMicroelectronics *****END OF FILE****/

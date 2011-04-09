@@ -1,11 +1,12 @@
 /**
   ******************************************************************************
-  * @file    system_stm32f10x.h
+  * @file    system_stm32l1xx.h
   * @author  MCD Application Team
-  * @version V3.1.2
-  * @date    09/28/2009
+  * @version V1.0.0
+  * @date    31-December-2010
   * @brief   CMSIS Cortex-M3 Device Peripheral Access Layer System Header File.
   ******************************************************************************  
+  * @attention
   *
   * THE PRESENT FIRMWARE WHICH IS FOR GUIDANCE ONLY AIMS AT PROVIDING CUSTOMERS
   * WITH CODING INFORMATION REGARDING THEIR PRODUCTS IN ORDER FOR THEM TO SAVE
@@ -14,29 +15,29 @@
   * FROM THE CONTENT OF SUCH FIRMWARE AND/OR THE USE MADE BY CUSTOMERS OF THE
   * CODING INFORMATION CONTAINED HEREIN IN CONNECTION WITH THEIR PRODUCTS.
   *
-  * <h2><center>&copy; COPYRIGHT 2009 STMicroelectronics</center></h2>
-  ******************************************************************************
+  * <h2><center>&copy; COPYRIGHT 2010 STMicroelectronics</center></h2>
+  ******************************************************************************  
   */
 
 /** @addtogroup CMSIS
   * @{
   */
 
-/** @addtogroup stm32f10x_system
+/** @addtogroup stm32l1xx_system
   * @{
   */  
   
 /**
   * @brief Define to prevent recursive inclusion
   */
-#ifndef __SYSTEM_STM32F10X_H
-#define __SYSTEM_STM32F10X_H
+#ifndef __SYSTEM_STM32L1XX_H
+#define __SYSTEM_STM32L1XX_H
 
 #ifdef __cplusplus
  extern "C" {
 #endif 
 
-/** @addtogroup STM32F10x_System_Includes
+/** @addtogroup STM32L1xx_System_Includes
   * @{
   */
 
@@ -45,21 +46,17 @@
   */
 
 
-/** @addtogroup STM32F10x_System_Exported_types
+/** @addtogroup STM32L1xx_System_Exported_types
   * @{
   */
 
-extern const uint32_t SystemFrequency;          /*!< System Clock Frequency (Core Clock) */
-extern const uint32_t SystemFrequency_SysClk;   /*!< System clock                        */
-extern const uint32_t SystemFrequency_AHBClk;   /*!< AHB System bus speed                */
-extern const uint32_t SystemFrequency_APB1Clk;  /*!< APB Peripheral Bus 1 (low)  speed   */
-extern const uint32_t SystemFrequency_APB2Clk;  /*!< APB Peripheral Bus 2 (high) speed   */
+extern uint32_t SystemCoreClock;          /*!< System Clock Frequency (Core Clock) */
 
 /**
   * @}
   */
 
-/** @addtogroup STM32F10x_System_Exported_Constants
+/** @addtogroup STM32L1xx_System_Exported_Constants
   * @{
   */
 
@@ -67,7 +64,7 @@ extern const uint32_t SystemFrequency_APB2Clk;  /*!< APB Peripheral Bus 2 (high)
   * @}
   */
 
-/** @addtogroup STM32F10x_System_Exported_Macros
+/** @addtogroup STM32L1xx_System_Exported_Macros
   * @{
   */
 
@@ -75,11 +72,12 @@ extern const uint32_t SystemFrequency_APB2Clk;  /*!< APB Peripheral Bus 2 (high)
   * @}
   */
 
-/** @addtogroup STM32F10x_System_Exported_Functions
+/** @addtogroup STM32L1xx_System_Exported_Functions
   * @{
   */
   
 extern void SystemInit(void);
+extern void SystemCoreClockUpdate(void);
 /**
   * @}
   */
@@ -88,7 +86,7 @@ extern void SystemInit(void);
 }
 #endif
 
-#endif /*__SYSTEM_STM32F10X_H */
+#endif /*__SYSTEM_STM32L1XX_H */
 
 /**
   * @}
@@ -97,4 +95,4 @@ extern void SystemInit(void);
 /**
   * @}
   */  
-/******************* (C) COPYRIGHT 2009 STMicroelectronics *****END OF FILE****/
+/******************* (C) COPYRIGHT 2010 STMicroelectronics *****END OF FILE****/

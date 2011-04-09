@@ -1,8 +1,8 @@
-/******************** (C) COPYRIGHT 2009 STMicroelectronics ********************
+/******************** (C) COPYRIGHT 2011 STMicroelectronics ********************
 * File Name          : otg_dev.h
 * Author             : STMicroelectronics
-* Version            : V3.1.0
-* Date               : 10/30/2009
+* Version            : V3.3.0
+* Date               : 21-March-2011
 * Description        : linking defines
 ********************************************************************************
 * THE PRESENT SOFTWARE WHICH IS FOR GUIDANCE ONLY AIMS AT PROVIDING CUSTOMERS
@@ -117,5 +117,5 @@ uint16_t ByteSwap(uint16_t);
 #endif /* STM32F10X_CL */
 
 #endif /* __OTG_DEV_H__ */
-/******************* (C) COPYRIGHT 2009 STMicroelectronics *****END OF FILE****/
+/******************* (C) COPYRIGHT 2011 STMicroelectronics *****END OF FILE****/
 

@@ -1,8 +1,8 @@
-/******************** (C) COPYRIGHT 2009 STMicroelectronics ********************
+/******************** (C) COPYRIGHT 2011 STMicroelectronics ********************
 * File Name          : usb_int.h
 * Author             : MCD Application Team
-* Version            : V3.1.0
-* Date               : 10/30/2009
+* Version            : V3.3.0
+* Date               : 21-March-2011
 * Description        : Endpoint CTR (Low and High) interrupt's service routines
 *                      prototypes
 ********************************************************************************
@@ -30,4 +30,4 @@ void CTR_HP(void);
 
 #endif /* __USB_INT_H */
 
-/******************* (C) COPYRIGHT 2009 STMicroelectronics *****END OF FILE****/
+/******************* (C) COPYRIGHT 2011 STMicroelectronics *****END OF FILE****/
