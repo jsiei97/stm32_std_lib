@@ -1,0 +1,9 @@
+This repo will download and adapt the stm32 std lib from ST, 
+so it becomes more useful for FunTechCortexMX_gcc tool chain.
+
+When you run get_std_lib.pl you either get the latest stdlib or the usb lib.
+The script create a branch with the content of the downloaded zip, 
+this has to be merged onto the master track manually.
+
+This git repo can then be include in your projects git as a vendor branch.
+
